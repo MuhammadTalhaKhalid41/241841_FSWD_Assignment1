@@ -28,26 +28,6 @@ customer-support-dashboard/
 ├── report/Assignment_Report.docx
 └── README.md
 ```
-
-## Running the Project
-Because the application uses ES6 modules, run it with a local server instead of opening `index.html` directly with `file://`.
-
-### Option 1: VS Code Live Server
-1. Open the project folder in VS Code.
-2. Install the Live Server extension.
-3. Right-click `index.html`.
-4. Select **Open with Live Server**.
-
-### Option 2: Python
-From the project directory:
-```bash
-python -m http.server 5500
-```
-Then open:
-```text
-http://localhost:5500
-```
-
 ## Technologies
 - HTML5
 - CSS3
@@ -55,12 +35,4 @@ http://localhost:5500
 - JavaScript ES6+
 - Browser localStorage
 
-## GitHub
-```bash
-git init
-git add .
-git commit -m "Complete Customer Support Dashboard assignment"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/customer-support-dashboard.git
-git push -u origin main
-```
+
